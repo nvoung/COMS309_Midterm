@@ -31,9 +31,11 @@ function loadRods(myRods, n) {
         let name = sortedRods[i].name;
         let url = sortedRods[i].url;
         let price = sortedRods[i].price;
+        let infoURL = sortedRods[i].infoURL;
         let AddCardRod = document.createElement("div");
         AddCardRod.classList.add("col"); // Add Bootstrap class to the column
         AddCardRod.innerHTML = `
+    <a href="${infoURL}">
     <div class="card shadow-sm">
     <img src=${url} class="card-img-top" alt="..."></img>
     <div class="card-body">
@@ -41,6 +43,7 @@ function loadRods(myRods, n) {
     <p class="card-text"> <strong>Price:</strong> $${price}</p>
     </div>
     </div>
+    </a>
     `;
         CardRod.appendChild(AddCardRod);
     } // end of for
