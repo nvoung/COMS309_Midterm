@@ -1,6 +1,6 @@
 
 function fetchData(category) {
-    fetch("./FishingRods.JSON")
+    fetch("../Products.json")
         .then(response => response.json())
         .then(data => {
             if (category === "rods") {

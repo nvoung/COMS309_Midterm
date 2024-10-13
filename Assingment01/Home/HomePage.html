@@ -190,13 +190,19 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="../Home/HomePage.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/Assingment01/FishingRod/FishingRods.html">Rods</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/Assingment01/FishingLure/FishingLure.html">Lures</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="/Assingment01/JetSki/JetSki.html">JetSkis</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="/Assingment01/Boats/Boats.html">Boats</a>
             </li> 
             <li class="nav-item">
               <a class="nav-link" href="../Authors Page/Authors.html">Author</a>
@@ -211,10 +217,11 @@
 
     <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -229,7 +236,7 @@
           <div class="container">
             <div class="carousel-caption text-start">
               <h1>Welcome to the Store</h1>
-              <p class="opacity-75">We have deals on rods, reels and lures</p>
+              <p class="opacity-75">We have deals on rods, reels, and lures</p>
             </div>
           </div>
         </div>
@@ -259,18 +266,48 @@
             </defs>
             <rect width="100%" height="100%" fill="url(#imgPattern3)" />
           </svg>
-          <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg> 
-          Old Code that was used to make background gray
-          -->
-          
           <div class="container">
             <div class="carousel-caption">
               <h1>Lures</h1>
-              <p>Browse through our countless selctions of lures</p>
+              <p>Browse through our countless selections of lures</p>
               <p><a class="btn btn-lg btn-primary" href="../FishingLure/FishingLure.html">Goto</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!--Add Your Images into the href Section On the below Carousel Items-->
+
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <defs>
+              <pattern id="imgPattern4" patternUnits="objectBoundingBox" width="1" height="1">
+                <image href="Images/JetSki.jpg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="none" />
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#imgPattern4)" />
+          </svg>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>JetSki</h1>
+              <p>Take a look at some of the best JetSki selections around!</p>
+              <p><a class="btn btn-lg btn-primary" href="">Goto</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <defs>
+              <pattern id="imgPattern5" patternUnits="objectBoundingBox" width="1" height="1">
+                <image href="Images/Boats.jpg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="none" />
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#imgPattern5)" />
+          </svg>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Boats</h1>
+              <p>Take a look at some of the best Boat selections around!</p>
+              <p><a class="btn btn-lg btn-primary" href="">Goto</a></p>
             </div>
           </div>
         </div>
@@ -284,6 +321,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    
 
 
     <!-- Marketing messaging and featurettes
