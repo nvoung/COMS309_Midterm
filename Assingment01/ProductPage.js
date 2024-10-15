@@ -19,112 +19,8 @@ const rightArrow = document.querySelector(".btn-swipe-right");
 const minusBtn = document.querySelector(".minus");
 const cartNumber = document.querySelector(".cart-number");
 const plusBtn = document.querySelector(".plus");
-// console.log(btnLeft);
-// console.log(btnRight);
 
-//////////////////////////////////////
-// Adding and removing float image
-let index = 0;
 
-mainImg.addEventListener("click", function () {
-  classFloat.classList.add("activate"); ////////
-  overlayC.classList.add("activate");
-
-  mainImgFloat.src = mainImg.src;
-  for (let j = 0; j < thumbnailbImgFloat.length; j++) {
-    thumbnailbImgFloat[j].classList.remove("active-thumb");
-    if (thumbnailbImg[j].classList.contains("active-thumb")) {
-      thumbnailbImgFloat[j].classList.add("active-thumb");
-      index = j;
-    }
-  }
-});
-
-const removeFloatImg = function () {
-  classFloat.classList.remove("activate"); //////
-  overlayC.classList.remove("activate");
-};
-
-closeIcon.addEventListener("click", function () {
-  removeFloatImg();
-});
-
-overlayC.addEventListener("click", function () {
-  removeFloatImg();
-});
-
-document.addEventListener("keydown", function (e) {
-  // console.log(e.key);
-  if (e.key === "Escape") {
-    removeFloatImg();
-  }
-});
-
-//////////////////////////////////
-// changing images main
-
-for (let i = 0; i < thumbnailbImg.length; i++) {
-  thumbnailbImg[i].addEventListener("click", function () {
-    for (let j = 0; j < thumbnailbImg.length; j++) {
-      thumbnailbImg[j].classList.remove("active-thumb");
-    }
-    thumbnailbImg[i].classList.add("active-thumb");
-
-    // to change main image
-    const thumbnailTag = thumbnailbImg[i].getElementsByTagName("img");
-    // console.log(thumbnailTag[0], thumbnailTag[0].getAttribute("src"));
-    const thumbnailIndex = thumbnailTag[0].getAttribute("src")[21];
-
-    mainImg.src = `images/image-product-${thumbnailIndex}.jpg`;
-  });
-}
-
-////////////////////////////////
-// changing images Floating
-// console.log(thumbnailbImgFloat);
-for (let i = 0; i < thumbnailbImgFloat.length; i++) {
-  thumbnailbImgFloat[i].addEventListener("click", function () {
-    for (let j = 0; j < thumbnailbImgFloat.length; j++) {
-      thumbnailbImgFloat[j].classList.remove("active-thumb");
-    }
-    thumbnailbImgFloat[i].classList.add("active-thumb");
-    index = i;
-
-    const thumbnailFloatTag = thumbnailbImgFloat[i].getElementsByTagName("img");
-
-    const thumbnailbFloatIndex = thumbnailFloatTag[0].getAttribute("src")[21];
-
-    mainImgFloat.src = `images/image-product-${thumbnailbFloatIndex}.jpg`;
-    // mainImgFloat.src = `images/image-product-${1}.jpg`;
-  });
-}
-
-// for clicking buttons
-leftArrow.addEventListener("click", function () {
-  if (index >= 1) {
-    for (const key of thumbnailbImgFloat) {
-      key.classList.remove("active-thumb");
-    }
-    index -= 1;
-    mainImgFloat.src = `images/image-product-${index + 1}.jpg`;
-    thumbnailbImgFloat[index].classList.add("active-thumb");
-  }
-});
-
-rightArrow.addEventListener("click", function () {
-  if (index <= 2) {
-    for (const key of thumbnailbImgFloat) {
-      key.classList.remove("active-thumb");
-    }
-    index += 1;
-    mainImgFloat.src = `images/image-product-${index + 1}.jpg`;
-    thumbnailbImgFloat[index].classList.add("active-thumb");
-  }
-});
-
-// console.log(minusBtn);
-// console.log(plusBtn);
-// console.log(cartNumber.textContent);
 let cartCount = 0;
 
 minusBtn.addEventListener("click", function () {
@@ -141,8 +37,7 @@ plusBtn.addEventListener("click", function () {
   }
 });
 
-/////////////////
-// Working of CART
+
 const navCart = document.querySelector(".nav-cart");
 const cartBox = document.querySelector(".cart");
 const emptyCart = document.querySelector(".empty-cart");
