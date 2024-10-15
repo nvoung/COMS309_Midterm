@@ -10,19 +10,19 @@
             "name": "Jhonny Morris Carbon Lite Casting Rod",
             "price": "200",
             "url": "/Assingment01/FishingRod/RodImages/JhonnyMorrisCL.avif",
-            "infoURL": "/Assingment01/FishingRod/JMCLInfo.html"
+            "infoURL": "/Assingment01/FishingRod/RodPurchase/JMCLInfo.html"
         },
         {
             "name": "StCroix-DG Spinning Rod",
             "price": "250",
             "url": "/Assingment01/FishingRod/RodImages/StCroixDG.avif",
-            "infoURL": "/Assingment01/FishingRod/StCroixDGInfo.html"
+            "infoURL": "/Assingment01/FishingRod/RodPurchase/StCroixDGInfo.html"
         },
         {
             "name": "Ugly Stick GX2 Spinning Rod",
             "price": "80",
             "url": "/Assingment01/FishingRod/RodImages/UglyStickGX2.avif",
-            "infoURL": "/Assingment01/FishingRod/UGX2Info.html"
+            "infoURL": "/Assingment01/FishingRod/RodPurchase/UGX2Info.html"
         }
     ],
     "lures": [
