@@ -53,18 +53,107 @@
     ],
     "boats": [
         {
-            "name": "",
-            "price": "",
-            "url": "",
-            "infoURL": ""
+            "name": "Cobia: Model 262 CC",
+            "price": "15,000.00",
+            "url": "/Assingment01/Boats/fishingboatImages/Cobia.jpg",
+            "infoURL": "/Assingment01/Boats/BoatPurchase/Cobia.html"
+        },
+        {
+            "name": "Mako: Model 334 CC",
+            "price": "15,000.00",
+            "url": "/Assingment01/Boats/fishingboatImages/mako.jpg",
+            "infoURL": "/Assingment01/Boats/BoatPurchase/Mako.html"
+        },
+        {
+             "name": "Robalo: Model R200",
+            "price": "15,000.00",
+            "url": "/Assingment01/Boats/fishingboatImages/Robalo.jpg",
+            "infoURL": "/Assingment01/Boats/BoatPurchase/Robalo.html"
+        },
+        {
+             "name": "Sportsman: Model 282",
+            "price": "15,000.00",
+            "url": "/Assingment01/Boats/fishingboatImages/sportsman.jpg",
+            "infoURL": "/Assingment01/Boats/BoatPurchase/Sportsman.html"
         }
     ],
-    "jetskis": [
+    "boatsDescription": [
         {
-            "name": "",
+            "horsepower": "2323",
+            "length": "22",
+            "seatingCapacity": "12",
+            "fuelCapacity": "21"
+        },
+        {
+            "horsepower": "2323",
+            "length": "22",
+            "seatingCapacity": "12",
+            "fuelCapacity": "21"
+        },
+        {
+            "horsepower": "2323",
+            "length": "22",
+            "seatingCapacity": "12",
+            "fuelCapacity": "21"
+        },
+        {
+            "horsepower": "2323",
+            "length": "22",
+            "seatingCapacity": "12",
+            "fuelCapacity": "21"
+        }
+
+    ],
+    "jetski": [
+        {
+            "name": "Kawasaki: Model Jet Ski Ultra 310",
             "price": "",
-            "url": "",
-            "infoURL": ""
+            "url": "/Assingment01/JetSki/jetskiImages/Kawasaki.jpg",
+            "infoURL": "/Assingment01/JetSki/JetSkiPurchase/Kawasaki.html"
+        },
+        {
+            "name": "Polaris: Model SLT 750",
+            "price": "",
+            "url": "/Assingment01/JetSki/jetskiImages/polaris.jpg",
+            "infoURL": "/Assingment01/JetSki/JetSkiPurchase/Polaris.html"
+        },
+        {
+              "name": "Sea-doo: Model RXT-X-260",
+            "price": "",
+            "url": "/Assingment01/JetSki/jetskiImages/Sea-doo.jpg",
+            "infoURL": "/Assingment01/JetSki/JetSkiPurchase/Sea-doo.html"
+        },
+        {
+             "name": "Yamaha: Model VX Cruiser",
+            "price": "",
+            "url": "/Assingment01/JetSki/jetskiImages/yamaha.jpg",
+            "infoURL": "/Assingment01/JetSki/JetSkiPurchase/Yamaha.html"
+        }
+    ],
+    "jetskiDescription":[
+        {
+            "horsepower": "2323",
+            "length": "22",
+            "seatingCapacity": "12",
+            "fuelCapacity": "21"
+        },
+        {
+            "horsepower": "2323",
+            "length": "22",
+            "seatingCapacity": "12",
+            "fuelCapacity": "21"
+        },
+        {
+            "horsepower": "2323",
+            "length": "22",
+            "seatingCapacity": "12",
+            "fuelCapacity": "21"
+        },
+        {
+            "horsepower": "2323",
+            "length": "22",
+            "seatingCapacity": "12",
+            "fuelCapacity": "21"
         }
     ]
 }
