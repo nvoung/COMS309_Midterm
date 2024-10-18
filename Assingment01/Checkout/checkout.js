@@ -12,9 +12,7 @@ let cartCount = 0;
 //advent listener
 purchaseButton.addEventListener("click", function(){
 
-  // if(cartCount > 0){
-
-  //   localStorage.setItem("", cartCount);
+    //localStorage.setItem("name", );
     window.location.href = "/Assingment01/Checkout/index.html";
   // }
   });
