@@ -69,5 +69,6 @@ plusBtn.addEventListener("click", function () {
 // });
 
 // document.addEventListener("DOMContentLoaded", loadCartCount());
+//implmenting checkoutPage 
 
 

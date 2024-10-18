@@ -12,8 +12,7 @@ function fetchData(category) {
             }
             else if(category === "jetski"){
                 loadItems(data.jetski);
-            }
-           
+            }       
         })
         .catch(err => console.log("Error: " + err));
 }
@@ -34,9 +33,9 @@ function loadItems(items) {
 
         AddCardItem.innerHTML = `
             <a href="${infoURL}">
-                <div class="card shadow-sm">
-                    <img src=${url} class="card-img-top" alt="..."></img>
-                    <div class="card-body">
+                <div class="card h-100 shadow-sm d-flex flex-column">
+                    <img src=${url} class="card-img-top fixed-image" alt="${name}"/>
+                    <div class="card-body d-flex flex-column justify-content-between">
                         <p class="card-text"><strong>${name}</strong></p>
                         <p class="card-text"><strong>Price:</strong> $${price}</p>
                     </div>

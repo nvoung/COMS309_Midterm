@@ -1,27 +1,27 @@
-//cart Button
-const AddToCartBtn = document.querySelector(".add-cart");
-const headerCartCount = document.getElementById("header-cart-count"); //implment in header 
-let cartCount = 0;
+// //cart Button
+// const AddToCartBtn = document.querySelector(".add-cart");
+// const headerCartCount = document.getElementById("header-cart-count"); //implment in header 
+// let cartCount = 0;
 
-const minusBtn = document.querySelector(".minus");
-const cartNumber = document.querySelector(".cart-number");
-const plusBtn = document.querySelector(".plus");
+// const minusBtn = document.querySelector(".minus");
+// const cartNumber = document.querySelector(".cart-number");
+// const plusBtn = document.querySelector(".plus");
 
-//clicking functions
+// //clicking functions
 
-minusBtn.addEventListener("click", function () {
-  if (cartCount >= 1) {
-    cartCount -= 1;
-    cartNumber.textContent = cartCount;
-  }
-});
+// minusBtn.addEventListener("click", function () {
+//   if (cartCount >= 1) {
+//     cartCount -= 1;
+//     cartNumber.textContent = cartCount;
+//   }
+// });
 
-plusBtn.addEventListener("click", function () {
-  if (cartCount <= 9) {
-    cartCount += 1;
-    cartNumber.textContent = cartCount;
-  }
-});
+// plusBtn.addEventListener("click", function () {
+//   if (cartCount <= 9) {
+//     cartCount += 1;
+//     cartNumber.textContent = cartCount;
+//   }
+// });
 
 
 //functions to implment product Cart

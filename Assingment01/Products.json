@@ -77,33 +77,6 @@
             "infoURL": "/Assingment01/Boats/BoatPurchase/Sportsman.html"
         }
     ],
-    "boatsDescription": [
-        {
-            "horsepower": "2323",
-            "length": "22",
-            "seatingCapacity": "12",
-            "fuelCapacity": "21"
-        },
-        {
-            "horsepower": "2323",
-            "length": "22",
-            "seatingCapacity": "12",
-            "fuelCapacity": "21"
-        },
-        {
-            "horsepower": "2323",
-            "length": "22",
-            "seatingCapacity": "12",
-            "fuelCapacity": "21"
-        },
-        {
-            "horsepower": "2323",
-            "length": "22",
-            "seatingCapacity": "12",
-            "fuelCapacity": "21"
-        }
-
-    ],
     "jetski": [
         {
             "name": "Kawasaki: Model Jet Ski Ultra 310",
@@ -128,32 +101,6 @@
             "price": "",
             "url": "/Assingment01/JetSki/jetskiImages/yamaha.jpg",
             "infoURL": "/Assingment01/JetSki/JetSkiPurchase/Yamaha.html"
-        }
-    ],
-    "jetskiDescription":[
-        {
-            "horsepower": "2323",
-            "length": "22",
-            "seatingCapacity": "12",
-            "fuelCapacity": "21"
-        },
-        {
-            "horsepower": "2323",
-            "length": "22",
-            "seatingCapacity": "12",
-            "fuelCapacity": "21"
-        },
-        {
-            "horsepower": "2323",
-            "length": "22",
-            "seatingCapacity": "12",
-            "fuelCapacity": "21"
-        },
-        {
-            "horsepower": "2323",
-            "length": "22",
-            "seatingCapacity": "12",
-            "fuelCapacity": "21"
         }
     ]
 }
