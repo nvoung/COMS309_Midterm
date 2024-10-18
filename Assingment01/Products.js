@@ -13,9 +13,7 @@ function fetchData(category) {
             else if(category === "jetski"){
                 loadItems(data.jetski);
             }
-            else if(category === "jetskiDescription"){
-                
-            }
+           
         })
         .catch(err => console.log("Error: " + err));
 }
@@ -50,32 +48,32 @@ function loadItems(items) {
     }
 }
 
-function loadDescriptions(description){
-    var CardContainer = document.getElementById("col");
-    // Clear previous data
-    CardContainer.innerHTML = "";
+// function loadDescriptions(description){
+//     var CardContainer = document.getElementById("col");
+//     // Clear previous data
+//     CardContainer.innerHTML = "";
 
-    for (var i = 0; i < items.length; i++) {
-        let horsepower = items[i].horsepower;
-        let length = items[i].length;
-        let seatingCapacity = items[i].seatingCapacity;
-        let fuelCapacity = items[i].fuelCapacity;
+//     for (var i = 0; i < items.length; i++) {
+//         let horsepower = items[i].horsepower;
+//         let length = items[i].length;
+//         let seatingCapacity = items[i].seatingCapacity;
+//         let fuelCapacity = items[i].fuelCapacity;
 
-        let AddCardItem = document.createElement("div");
-        AddCardItem.classList.add("col"); // Add Bootstrap class to the column
+//         let AddCardItem = document.createElement("div");
+//         AddCardItem.classList.add("col"); // Add Bootstrap class to the column
 
-        AddCardItem.innerHTML = `
-            <a href="${infoURL}">
-                <div class="card shadow-sm">
-                    <img src=${url} class="card-img-top" alt="..."></img>
-                    <div class="card-body">
-                        <p class="card-text"><strong>${name}</strong></p>
-                        <p class="card-text"><strong>Price:</strong> $${price}</p>
-                    </div>
-                </div>
-            </a>
-        `;
+//         AddCardItem.innerHTML = `
+//             <a href="${infoURL}">
+//                 <div class="card shadow-sm">
+//                     <img src=${url} class="card-img-top" alt="..."></img>
+//                     <div class="card-body">
+//                         <p class="card-text"><strong>${name}</strong></p>
+//                         <p class="card-text"><strong>Price:</strong> $${price}</p>
+//                     </div>
+//                 </div>
+//             </a>
+//         `;
 
-        CardContainer.appendChild(AddCardItem);
-    }
-}
+//         CardContainer.appendChild(AddCardItem);
+//     }
+// }
