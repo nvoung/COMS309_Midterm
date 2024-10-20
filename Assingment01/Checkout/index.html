@@ -99,6 +99,20 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
+       .navbar-brand{
+          margin-right: auto;
+          margin-left: auto;
+          text-align: center;
+        }
+        .navbar-nav{
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+        }
+        .bg-orange{
+          background-color: orange !important;
+        }
+
     </style>
 
     
@@ -158,71 +172,63 @@
     </div> -->
 
     <header data-bs-theme="dark">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">NV Fishing</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../Home/HomePage.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Assingment01/FishingRod/FishingRods.html">Rods</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Assingment01/FishingLure/FishingLure.html">Lures</a>
-                </li> 
-                <li class="nav-item">
-                  <a class="nav-link" href="/Assingment01/JetSki/JetSki.html">JetSkis</a>
-                </li> 
-                <li class="nav-item">
-                  <a class="nav-link" href="/Assingment01/Boats/Boats.html">Boats</a>
-                </li> 
-                <li class="nav-item">
-                  <a class="nav-link" href="../Authors Page/Authors.html">Author</a>
-              </li>
-              </ul>
-               <!-- <div class="d-flex align-items-center ms-auto">
-                <a class="nav-link position-relative" href="/Assingment01/Cart/cart.html">
-                    <i class="bi bi-cart-fill" style="font-size: 1.5rem; color: white;"></i> 
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="header-cart-count">
-                    0
-                    </span>
-                </a>
-                </div> -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-orange">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/Assingment01/Home/HomePage.html">NVDC Fishing</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../Home/HomePage.html">Home</a>
+                          </li> -->
+                          <li class="nav-item">
+                            <a class="nav-link" href="/Assingment01/FishingRod/FishingRods.html">Rods</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/Assingment01/FishingLure/FishingLure.html">Lures</a>
+                          </li> 
+                          <li class="nav-item">
+                            <a class="nav-link" href="/Assingment01/JetSki/JetSki.html">JetSkis</a>
+                          </li> 
+                          <li class="nav-item">
+                            <a class="nav-link" href="/Assingment01/Boats/Boats.html">Boats</a>
+                          </li> 
+                          <li class="nav-item">
+                            <a class="nav-link" href="../Authors Page/Authors.html">Author</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </nav>
-      </header>
+    </header>
 
 <div class="container">
   <main>
     <div class="py-5 text-center">
-      <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-      <h2>Checkout form</h2>
-      <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+      <!-- <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
+      <h2>Checkout</h2>
+      <p class="lead">Enter personal information below to purchase items and have them shipped accordingly.</p>
     </div>
 
     <div class="row g-5">
       <div class="col-md-5 col-lg-4 order-md-last">
-        <h4 class="d-flex justify-content-between align-items-center mb-3">
-          <span class="text-primary">Your item</span>
+        <!-- <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-primary">Your item</span> -->
           <!-- <span class="badge bg-primary rounded-pill"></span> -->
         </h4>
         <!-- HERE IT SHOULD STORE THE ITEM WE WANT TO PURCHASE AND THE AMOOUNT I AM HAVING ISSUES WITH -->
-        <ul class="list-group mb-3">
+        <!-- <ul class="list-group mb-3">
           <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
+             <div>
               <h6 class="my-0">Product name</h6>
               <small class="text-body-secondary">Brief description</small>
-            </div>
-            <span class="text-body-secondary">$12</span>
-          </li>
-        </ul>  
+            </div> -->
+            <!-- <span class="text-body-secondary">$12</span> -->
+          <!-- </li>
+        </ul>    -->
       </div>
       <div class="col-md-7 col-lg-8">
         <h4 class="mb-3">Billing address</h4>
@@ -375,7 +381,8 @@
 
           <hr class="my-4">
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+          <!-- <button class="w-100 btn btn-primary btn-lg" type="submit">Purchase</button> -->
+            <button class="w-100 btn btn-primary btn-lg" type="button" onclick="alert('Item purchased!')">Purchase</button>
         </form>
       </div>
     </div>

@@ -54,25 +54,25 @@
     "boats": [
         {
             "name": "Cobia: Model 262 CC",
-            "price": "15,000.00",
+            "price": "125,000.00",
             "url": "/Assingment01/Boats/fishingboatImages/Cobia.jpg",
             "infoURL": "/Assingment01/Boats/BoatPurchase/Cobia.html"
         },
         {
             "name": "Mako: Model 334 CC",
-            "price": "15,000.00",
+            "price": "225,000.00",
             "url": "/Assingment01/Boats/fishingboatImages/mako.jpg",
             "infoURL": "/Assingment01/Boats/BoatPurchase/Mako.html"
         },
         {
              "name": "Robalo: Model R200",
-            "price": "15,000.00",
+            "price": "45,000.00",
             "url": "/Assingment01/Boats/fishingboatImages/Robalo.jpg",
             "infoURL": "/Assingment01/Boats/BoatPurchase/Robalo.html"
         },
         {
              "name": "Sportsman: Model 282",
-            "price": "15,000.00",
+            "price": "248,000.00",
             "url": "/Assingment01/Boats/fishingboatImages/sportsman.jpg",
             "infoURL": "/Assingment01/Boats/BoatPurchase/Sportsman.html"
         }
@@ -80,25 +80,25 @@
     "jetski": [
         {
             "name": "Kawasaki: Model Jet Ski Ultra 310",
-            "price": "",
+            "price": "13,000.00",
             "url": "/Assingment01/JetSki/jetskiImages/Kawasaki.jpg",
             "infoURL": "/Assingment01/JetSki/JetSkiPurchase/Kawasaki.html"
         },
         {
             "name": "Polaris: Model SLT 750",
-            "price": "",
+            "price": "8,000.00",
             "url": "/Assingment01/JetSki/jetskiImages/polaris.jpg",
             "infoURL": "/Assingment01/JetSki/JetSkiPurchase/Polaris.html"
         },
         {
               "name": "Sea-doo: Model RXT-X-260",
-            "price": "",
+            "price": "9,000.00",
             "url": "/Assingment01/JetSki/jetskiImages/Sea-doo.jpg",
             "infoURL": "/Assingment01/JetSki/JetSkiPurchase/Sea-doo.html"
         },
         {
              "name": "Yamaha: Model VX Cruiser",
-            "price": "",
+            "price": "7,750.00",
             "url": "/Assingment01/JetSki/jetskiImages/yamaha.jpg",
             "infoURL": "/Assingment01/JetSki/JetSkiPurchase/Yamaha.html"
         }
