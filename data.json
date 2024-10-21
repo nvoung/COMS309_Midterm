@@ -81,26 +81,26 @@
         {
             "name": "Kawasaki: Model Jet Ski Ultra 310",
             "price": "13,000.00",
-            "url": "../../JetSki/jetskiImages/Kawasaki.jpg",
-            "infoURL": "../../JetSki/JetSkiPurchase/Kawasaki.html"
+            "url": "../JetSki/jetskiImages/Kawasaki.jpg",
+            "infoURL": "../JetSki/JetSkiPurchase/Kawasaki.html"
         },
         {
             "name": "Polaris: Model SLT 750",
             "price": "8,000.00",
-            "url": "../../JetSki/jetskiImages/polaris.jpg",
-            "infoURL": "../../JetSki/JetSkiPurchase/Polaris.html"
+            "url": "../JetSki/jetskiImages/polaris.jpg",
+            "infoURL": "../JetSki/JetSkiPurchase/Polaris.html"
         },
         {
               "name": "Sea-doo: Model RXT-X-260",
             "price": "9,000.00",
-            "url": "../../JetSki/jetskiImages/Sea-doo.jpg",
-            "infoURL": "../../JetSki/JetSkiPurchase/Sea-doo.html"
+            "url": "../JetSki/jetskiImages/Sea-doo.jpg",
+            "infoURL": "../JetSki/JetSkiPurchase/Sea-doo.html"
         },
         {
              "name": "Yamaha: Model VX Cruiser",
             "price": "7,750.00",
-            "url": "../../JetSki/jetskiImages/yamaha.jpg",
-            "infoURL": "../../JetSki/JetSkiPurchase/Yamaha.html"
+            "url": "../JetSki/jetskiImages/yamaha.jpg",
+            "infoURL": "../JetSki/JetSkiPurchase/Yamaha.html"
         }
     ]
 }
