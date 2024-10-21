@@ -1,0 +1,106 @@
+{
+    "rods": [
+        {
+            "name": "G-loomis",
+            "price": "200",
+            "url": "../FishingRod/RodImages/Gloomis.avif",
+            "infoURL": "../FishingRod/RodPurchase/GloomisInfo.html"
+        },
+        {
+            "name": "Jhonny Morris Carbon Lite Casting Rod",
+            "price": "200",
+            "url": "../FishingRod/RodImages/JhonnyMorrisCL.avif",
+            "infoURL": "../FishingRod/RodPurchase/JMCLInfo.html"
+        },
+        {
+            "name": "StCroix-DG Spinning Rod",
+            "price": "250",
+            "url": "../FishingRod/RodImages/StCroixDG.avif",
+            "infoURL": "../FishingRod/RodPurchase/StCroixDGInfo.html"
+        },
+        {
+            "name": "Ugly Stick GX2 Spinning Rod",
+            "price": "80",
+            "url": "../FishingRod/RodImages/UglyStickGX2.avif",
+            "infoURL": "../FishingRod/RodPurchase/UGX2Info.html"
+        }
+    ],
+    "lures": [
+        {
+            "name": "Berkley Choppo",
+            "price": "12.99",
+            "url": "../FishingLure/LureImages/BerkleyChoppo.avif",
+            "infoURL": "../FishingLure/LurePurchase/BChoppoInfo.html"
+        },
+        {
+            "name": "KVD Spinner",
+            "price": "7.99",
+            "url": "../FishingLure/LureImages/KVDSpinner.avif",
+            "infoURL": "../FishingLure/LurePurchase/KVDSpinInfo.html"
+        },
+        {
+            "name": "Booyah Pad Crasher",
+            "price": "9.99",
+            "url": "../FishingLure/LureImages/TopWaterFrog.avif",
+            "infoURL": "../FishingLure/LurePurchase/TopWaterInfo.html"
+        },
+        {
+            "name": "Yum Dinger 12PK",
+            "price": "6.99",
+            "url": "../FishingLure/LureImages/YumDinger.avif",
+            "infoURL": "../FishingLure/LurePurchase/YumDingInfo.html"
+        }
+    ],
+    "boats": [
+        {
+            "name": "Cobia: Model 262 CC",
+            "price": "125,000.00",
+            "url": "../Boats/fishingboatImages/Cobia.jpg",
+            "infoURL": "../Boats/BoatPurchase/Cobia.html"
+        },
+        {
+            "name": "Mako: Model 334 CC",
+            "price": "225,000.00",
+            "url": "../Boats/fishingboatImages/mako.jpg",
+            "infoURL": "../Boats/BoatPurchase/Mako.html"
+        },
+        {
+             "name": "Robalo: Model R200",
+            "price": "45,000.00",
+            "url": "../Boats/fishingboatImages/Robalo.jpg",
+            "infoURL": "../Boats/BoatPurchase/Robalo.html"
+        },
+        {
+             "name": "Sportsman: Model 282",
+            "price": "248,000.00",
+            "url": "../Boats/fishingboatImages/sportsman.jpg",
+            "infoURL": "../Boats/BoatPurchase/Sportsman.html"
+        }
+    ],
+    "jetski": [
+        {
+            "name": "Kawasaki: Model Jet Ski Ultra 310",
+            "price": "13,000.00",
+            "url": "../JetSki/jetskiImages/Kawasaki.jpg",
+            "infoURL": "../JetSki/JetSkiPurchase/Kawasaki.html"
+        },
+        {
+            "name": "Polaris: Model SLT 750",
+            "price": "8,000.00",
+            "url": "../JetSki/jetskiImages/polaris.jpg",
+            "infoURL": "../JetSki/JetSkiPurchase/Polaris.html"
+        },
+        {
+              "name": "Sea-doo: Model RXT-X-260",
+            "price": "9,000.00",
+            "url": "../JetSki/jetskiImages/Sea-doo.jpg",
+            "infoURL": "../JetSki/JetSkiPurchase/Sea-doo.html"
+        },
+        {
+             "name": "Yamaha: Model VX Cruiser",
+            "price": "7,750.00",
+            "url": "../JetSki/jetskiImages/yamaha.jpg",
+            "infoURL": "../JetSki/JetSkiPurchase/Yamaha.html"
+        }
+    ]
+}
